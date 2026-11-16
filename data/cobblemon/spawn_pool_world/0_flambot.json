@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "spawns": [
+    {
+      "id": "flambot-1",
+      "pokemon": "flambot",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-25",
+      "weight": 8,
+      "presets": ["natural"],
+      "condition": {
+        "biomes": ["#cobblemon:is_mountain"]
+      }
+    }
+  ]
+}

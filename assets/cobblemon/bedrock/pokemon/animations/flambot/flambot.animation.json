@@ -1,0 +1,145 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.flambot.ground_idle": {
+      "loop": true,
+      "animation_length": 3,
+      "bones": {
+        "body": {
+          "position": [
+            0,
+            "math.sin(q.anim_time * 90) * 0.3",
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            "math.sin(q.anim_time * 60) * 2",
+            "math.sin(q.anim_time * 40) * 4",
+            0
+          ]
+        },
+        "crest": {
+          "rotation": [
+            "math.sin(q.anim_time * 80) * 4",
+            0,
+            0
+          ]
+        },
+        "arm_right": {
+          "rotation": [
+            0,
+            0,
+            "math.sin(q.anim_time * 90) * 2"
+          ]
+        },
+        "arm_left": {
+          "rotation": [
+            0,
+            0,
+            "math.sin(q.anim_time * 90) * -2"
+          ]
+        }
+      }
+    },
+    "animation.flambot.ground_walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "leg_right": {
+          "rotation": [
+            "math.sin(q.anim_time * 360) * 30",
+            0,
+            0
+          ]
+        },
+        "leg_left": {
+          "rotation": [
+            "math.sin(q.anim_time * 360 + 180) * 30",
+            0,
+            0
+          ]
+        },
+        "arm_right": {
+          "rotation": [
+            "math.sin(q.anim_time * 360 + 180) * 22",
+            0,
+            0
+          ]
+        },
+        "arm_left": {
+          "rotation": [
+            "math.sin(q.anim_time * 360) * 22",
+            0,
+            0
+          ]
+        },
+        "body": {
+          "position": [
+            0,
+            "math.abs(math.cos(q.anim_time * 360)) * 0.4",
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "crest": {
+          "rotation": [
+            "math.sin(q.anim_time * 360) * 5",
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "animation.flambot.faint": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "flambot": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              -80,
+              0,
+              0
+            ]
+          },
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              -1,
+              0
+            ]
+          }
+        },
+        "crest": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              30,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}
