@@ -1,0 +1,90 @@
+{
+  "implemented": true,
+  "name": "flambot",
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.flambot.desc1",
+    "cobblemon.species.flambot.desc2"
+  ],
+  "height": 9,
+  "weight": 240,
+  "shoulderMountable": false,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "baseStats": {
+    "hp": 55,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 90,
+    "special_defence": 65,
+    "speed": 70
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 120,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 20,
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "special_attack": 1,
+    "defence": 1
+  },
+  "moves": [
+    "1:tackle",
+    "1:ember",
+    "6:metalclaw",
+    "10:quickattack",
+    "14:flamecharge",
+    "18:irondefense",
+    "22:firefang",
+    "26:gyroball",
+    "30:flashcannon",
+    "34:flamethrower",
+    "38:heavyslam",
+    "42:fireblast",
+    "tm:rest",
+    "tm:protect",
+    "tutor:ironhead"
+  ],
+  "abilities": [
+    "flamebody",
+    "h:flashfire"
+  ],
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.0,
+    "fixed": false
+  },
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true
+      },
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  },
+  "evolutions": []
+}

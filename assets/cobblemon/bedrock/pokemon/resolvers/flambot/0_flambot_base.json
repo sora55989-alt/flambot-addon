@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:flambot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:flambot",
+      "model": "cobblemon:flambot.geo",
+      "texture": "cobblemon:textures/pokemon/flambot/flambot.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/flambot/flambot_shiny.png"
+    }
+  ]
+}
